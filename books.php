@@ -90,15 +90,15 @@ class Books{
             mysql_select_db($this->dbname);
   
 			//Comment Code After Inserting Record On Load
-			// $sql = "INSERT INTO Book (bookTitle, author, publisher, edition, ISBN_no, price, NumOfCopies)
-            // VALUES ('How Life Learned to Live: Adaptation in Nature','Ronald S. Calinger','MIT Press','1','ISBN 978-0-262-20045-5','100',10),
-            // ('Physics in Molecular Biology','Frank H','Cambridge University Press','3','ISBN 0-521-84419-3','70',10),
-            // ('The Early Universe','Jerrold Grossman','Addison Wesley','5','ISBN 0-201-11604-9','72',10),
-            // ('Methods of theoretical physics','Linda Pulsinellir','New York: McGraw-Hill','4','ISBN 978-0-07-043316-8','60',10)";
+			$sql = "INSERT INTO Book (bookTitle, author, publisher, edition, ISBN_no, price, NumOfCopies)
+            VALUES ('How Life Learned to Live: Adaptation in Nature','Ronald S. Calinger','MIT Press','1','ISBN 978-0-262-20045-5','100',10),
+            ('Physics in Molecular Biology','Frank H','Cambridge University Press','3','ISBN 0-521-84419-3','70',10),
+            ('The Early Universe','Jerrold Grossman','Addison Wesley','5','ISBN 0-201-11604-9','72',10),
+            ('Methods of theoretical physics','Linda Pulsinellir','New York: McGraw-Hill','4','ISBN 978-0-07-043316-8','60',10)";
             
 		
-	        $sql = "INSERT INTO Book (bookTitle, author, publisher, edition, ISBN_no, price, NumOfCopies)
-	        VALUES ('$this->bookTitle', '$this->authorName','$this->publisherName','$this->edition','$this->ISBN_num','$this->price',$this->numCopies)";
+	        // $sql = "INSERT INTO Book (bookTitle, author, publisher, edition, ISBN_no, price, NumOfCopies)
+	        // VALUES ('$this->bookTitle', '$this->authorName','$this->publisherName','$this->edition','$this->ISBN_num','$this->price',$this->numCopies)";
         
 				if ($conn->query($sql) === TRUE) {
 					//echo "New record created successfully";

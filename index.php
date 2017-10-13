@@ -5,16 +5,16 @@ require "books.php";
 $databaseConnection = new DatabaseConnection;
 $book = new Books;
 //Comment this code After connection has been established, Database Created and Record Inserted
-// $databaseConnection->createConection();
-// $databaseConnection->createDataBase();
-// $databaseConnection->createAdminTable();
-// $databaseConnection->createBookTable();
-// $databaseConnection->createStudentTable();
-// $databaseConnection->createLibraryUser();
-// $databaseConnection->createTranscationTable();
-// $databaseConnection->createRequestTable();
-// $databaseConnection->insertAdminData();
-// $book->insertBookDetails();
+$databaseConnection->createConection();
+$databaseConnection->createDataBase();
+$databaseConnection->createAdminTable();
+$databaseConnection->createBookTable();
+$databaseConnection->createStudentTable();
+$databaseConnection->createLibraryUser();
+$databaseConnection->createTranscationTable();
+$databaseConnection->createRequestTable();
+$databaseConnection->insertAdminData();
+$book->insertBookDetails();
 //Comment this code After connection has been established, Database Created and Record Inserted
 
 $databaseConnection->tempConnection();
