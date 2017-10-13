@@ -1,0 +1,308 @@
+/*-------------------------
+	Responsive Styles
+-------------------------*/
+@media screen and (min-width: 1480px) {
+  .temparature-block {
+    padding: 60px 40px; } }
+
+@media screen and (max-width: 1024px) and (min-width: 786px) {
+  .nmbr-statistic-block {
+    text-align: center; }
+    .nmbr-statistic-block:before {
+      content: none; }
+    .nmbr-statistic-block .nmbr-statistic-info {
+      left: 15%;
+      top: 90px; }
+    .nmbr-statistic-block .number {
+      margin-bottom: 8px; }
+    .nmbr-statistic-block .nmbr-statistic-icon {
+      top: 28%;
+      left: 73px; }
+  .contrasts-alert .left-icon,
+  .contrasts-alert.transparent .left-icon {
+    line-height: 75px;
+    height: 100%; } }
+
+@media screen and (max-width: 1024px) {
+  .menu-expanded .apps-container-wrap {
+    margin-left: 50px;
+    width: calc(100% - 50px);
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0); }
+  .menu-expanded .forcast .forcast-day,
+  .menu-expanded .forcast .forcast-icon {
+    margin-right: 5px; }
+  .forcast .forcast-day,
+  .forcast .forcast-icon {
+    margin-right: 5px; }
+  .apps-logo-block {
+    position: fixed;
+    left: 0; }
+  .menu-collapsed .top-menu {
+    width: 100%;
+    margin-left: 70px; }
+  .top-controller-icons {
+    position: relative; }
+  .toggolebtn {
+    position: absolute; }
+  .toggolebtn.active {
+    left: 260px; }
+  .top-menu {
+    width: 100%;
+    margin-left: 0px; }
+  .chats .message {
+    width: 245px; }
+  .chats li.out .message {
+    margin-right: 0; }
+  .chats li.in .message {
+    margin-left: 0; }
+  .chats .avatar-block {
+    margin-top: 10px; }
+  .panel-body {
+    padding: 30px 20px; }
+  .inbox-nav a [class*="ti-"] {
+    margin-right: 4px; }
+  .inbox-body .left-block,
+  .inbox-body .right-block {
+    width: 100%; }
+  .inbox-body .search-form {
+    float: right; }
+  .profieInfo-block {
+    margin-left: 0; }
+  .profileInfo {
+    width: 80%;
+    margin-top: 76px; }
+  .profileSettings {
+    vertical-align: middle;
+    margin-bottom: 28px; }
+  .post-thumb .img-responsive.double {
+    width: 290px; }
+  .widget-page .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .drag-drop-full-block {
+    padding-top: 80px; }
+  .steps ul li:before {
+    content: none; }
+  .wizard-icon {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .top-controller-icons {
+    padding: 20px 0px 20px 25px; }
+  .navbar-nav {
+    width: 265px; }
+  .weather-blcok {
+    margin-bottom: 30px; }
+  .temparature-block {
+    padding: 60px 40px; }
+  .navbar .navbar-nav .dropdown .dropdown-toggle:after {
+    content: none; }
+  .navbar-nav {
+    width: 235px; }
+    .navbar-nav li {
+      margin-right: 0; }
+  .page-title-block {
+    padding: 30px 20px; }
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_desc:after,
+  table.dataTable thead .sorting_asc_disabled:after,
+  table.dataTable thead .sorting_desc_disabled:after,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_desc:before,
+  table.dataTable thead .sorting_asc:before,
+  table.dataTable thead .sorting:before {
+    content: none; }
+  .r-mrg-b-20 {
+    margin-bottom: 20px; }
+  .elements-block table tr td {
+    width: 100%;
+    display: block; }
+  .form-common .form-group.row label {
+    text-align: left; }
+  .tab-common li a.vertical-btn {
+    width: 117px;
+    height: 50px; }
+    .tab-common li a.vertical-btn span {
+      -webkit-transform: translate(0) rotate(0);
+      -ms-transform: translate(0) rotate(0);
+      transform: translate(0) rotate(0); }
+  .tab-common .nav-tabs.flex-column li a.vertical-btn {
+    padding: 18px 0; }
+  .profile-detail-block {
+    border-bottom: none; }
+  .inbox-view-mail-wrap .border-left {
+    border-left: none; }
+  .inbox-view-header {
+    margin-top: 30px; }
+  .inbox-author-block,
+  .inbox-info-block {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0; }
+  .attachment-area .attachment-block {
+    width: 31%;
+    margin-right: 10px; } }
+
+@media screen and (max-width: 736px) {
+  .panel-heading .dropdown-toggle::after {
+    margin-left: 0; }
+  .panel-heading .dropdown-menu {
+    width: 165px;
+    padding: .5rem 1.5rem; }
+  .top-controller-icons {
+    width: 60%; }
+  .top-controller-icons li:last-child {
+    width: 76%; }
+  .navbar-nav {
+    width: 230px; }
+  .inbox-body .left-block,
+  .inbox-body .right-block {
+    text-align: center; }
+  .inbox-body .search-form {
+    width: 100%; }
+    .inbox-body .search-form .form-group {
+      margin: 0 0 10px 0; }
+    .inbox-body .search-form .input-medium input {
+      width: 100%; } }
+
+@media screen and (max-width: 667px) {
+  .post-thumb .img-responsive.double {
+    width: 100%;
+    margin: 15px 0; }
+  .attachment-area .attachment-block {
+    width: 40%;
+    margin: 0 10px 30px 0; } }
+
+@media screen and (max-width: 586px) {
+  .top-controller-icons {
+    width: 53%; }
+  .top-controller-icons li {
+    margin: 0 8px; }
+  .top-controller-icons li:first-child {
+    margin: 13px 10px 13px 0; }
+  .searchbox-input {
+    font-size: 17px; }
+  .nmbr-statistic-block {
+    text-align: center; }
+  .contrasts-alert .left-icon,
+  .contrasts-alert.transparent .left-icon {
+    line-height: 75px;
+    height: 100%; }
+  .basic-datatable-block select.form-control {
+    margin: 10px 0; }
+  .dataTables_filter {
+    text-align: left; }
+  .dataTables_wrapper .dataTables_filter input {
+    margin: 5px 0; }
+  .exportable-datatable-block .dataTables_filter,
+  .exportable-datatable-block .dataTables_paginate,
+  .exportable-datatable-block .dt-buttons,
+  .exportable-datatable-block .dataTables_info {
+    width: 100%; }
+  .exportable-datatable-block div.dataTables_wrapper div.dataTables_paginate ul.pagination,
+  .dataTables_paginate {
+    float: left;
+    margin: 20px 0; }
+  .attachment-area .attachment-block {
+    width: 46%; }
+  .widget-form-block {
+    width: 100%; }
+    .widget-form-block .box-widget {
+      padding: 50px 30px; }
+  .form-common .form-group.row label {
+    padding-right: 0; }
+  .form-block.input-mask-block {
+    width: 100%; }
+  .drag-and-drope-block.full .ajax-upload-dragdrop {
+    width: 100% !important; } }
+
+@media screen and (max-width: 480px) {
+  .top-controller-icons li:last-child {
+    display: none; }
+  .top-controller-icons {
+    width: 20%; }
+  .temparature-block,
+  .forcast-block {
+    width: 100%;
+    display: blcok; }
+  .temparature-block {
+    margin-bottom: 30px; }
+  .forcast .forcast-day,
+  .forcast .forcast-icon {
+    margin-right: 40px; }
+  .apps-container-wrap {
+    margin-left: 0; }
+  .menu-collapsed .top-menu {
+    margin-left: 0; }
+  .menu-collapsed .cbp-spmenu-vertical,
+  .menu-collapsed .apps-logo-block {
+    left: -55px; }
+  .menu-expanded .cbp-spmenu-vertical,
+  .menu-expanded .apps-logo-block {
+    left: 0px; }
+  .dropdown-menu {
+    top: 96%; }
+  .btn-block,
+  .social-btn-group,
+  .bs-component {
+    text-align: center; }
+  .inbox-table tr td {
+    padding: 5px; }
+  .inbox-table .view-message {
+    font-size: 12px;
+    line-height: 15px; }
+  .inbox-body tbody .sender-name {
+    font-size: 12px;
+    line-height: 15px; }
+  .drag-and-drope-block {
+    margin-top: 20px; }
+  .inbox-wrap {
+    padding: 25px 18px; }
+  .inbox-view-wrap {
+    padding: 0; }
+  .attachment-area .attachment-block {
+    width: 100%;
+    margin: 0 0 30px 0; }
+  .inbox-view {
+    padding: 30px 30px 40px 30px; }
+  .toggolebtn {
+    top: 42%; }
+  .toggolebtn.active {
+    left: 200px;
+    z-index: 100000; }
+    .toggolebtn.active span {
+      color: #fff; }
+  .wizard-text {
+    display: none; }
+  .wizard-circle {
+    height: 50px;
+    width: 50px;
+    line-height: 50px; }
+  .menu-expanded .apps-container-wrap {
+    margin-left: 0px;
+    width: 100%; } }
+
+@media screen and (max-width: 375px) {
+  .activity-panel-body {
+    padding-top: 28px; } }
+
+@media screen and (max-width: 320px) {
+  .navbar-nav {
+    width: 205px; }
+  .inbox-table tr td {
+    padding: 3px; }
+  .card-dropdown.left {
+    left: -230px; }
+  .card-dropdown.right {
+    left: -270px; }
+  .drag-and-drope-block .ajax-upload-dragdrop {
+    padding: 44px 10px; }
+  .inbox-compose-block .compose-form-area {
+    padding: 10px; } }
